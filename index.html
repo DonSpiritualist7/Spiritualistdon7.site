@@ -1,75 +1,200 @@
-
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Spiritualist Don7 | 7 Portals of the Soul</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SpiritualistDon7 | Psychic Medium</title>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
   <style>
-    body { font-family: 'Open Sans', sans-serif; margin: 0; padding: 0; background: #f5f5f5; color: #222; }
-    header { background: #2c2c2c; color: #fff; padding: 20px; text-align: center; }
-    header h1 { font-family: 'Playfair Display', serif; margin: 0; }
-    nav { text-align: center; background: #444; padding: 10px 0; }
-    nav a { color: #fff; text-decoration: none; margin: 0 15px; font-weight: bold; }
-    .container { max-width: 900px; margin: 40px auto; padding: 0 20px; }
-    h2 { font-family: 'Playfair Display', serif; color: #444; }
-    .social-links a { display: inline-block; margin: 5px 10px; color: #222; text-decoration: none; }
-    .testimonials { background: #fff; padding: 30px; border-radius: 10px; margin-top: 40px; }
-    .testimonial { margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px solid #ddd; }
-    footer { text-align: center; padding: 20px; background: #2c2c2c; color: #fff; margin-top: 50px; }
+    body {
+      font-family: 'EB Garamond', serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #000000, #002244);
+      color: #fff;
+    }
+    header {
+      background-color: #001122;
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 3px solid #0f0;
+    }
+    header h1 {
+      color: #ff0;
+      margin: 0;
+    }
+    header p {
+      color: #0ff;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #111;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #fff;
+      padding: 1rem;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      background: #222;
+      color: #0f0;
+    }
+    section {
+      padding: 2rem;
+    }
+    h2 {
+      color: #0f0;
+      border-bottom: 2px solid #fff;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .service {
+      background: #112233;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #0ff;
+    }
+    footer {
+      background: #000;
+      padding: 2rem;
+      text-align: center;
+      color: #888;
+      font-size: 0.9rem;
+    }
+    .contact a {
+      color: #0ff;
+      display: block;
+    }
+    .donation-box {
+      background: #112233;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #ff0;
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .donation-box p {
+      font-size: 1.1rem;
+      color: #0ff;
+    }
+    .btc-address, .eth-address, .sol-address {
+      font-family: monospace;
+      background: #000;
+      padding: 1rem;
+      margin-top: 1rem;
+      border: 1px dashed #0f0;
+      color: #0f0;
+    }
+    .qr-code {
+      margin-top: 1rem;
+    }
+    .qr-code img {
+      width: 200px;
+      height: 200px;
+      border: 2px solid #fff;
+      border-radius: 10px;
+    }
+    .form-box {
+      background: #112233;
+      margin-top: 2rem;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 0 10px #0ff;
+    }
+    iframe {
+      width: 100%;
+      border: none;
+      height: 600px;
+      border-radius: 10px;
+    }
   </style>
 </head>
 <body>
-<header>
-  <h1>Spiritualist Don7</h1>
-  <p>Awaken the Soul. Align the Chakras. Embrace the Divine.</p>
-</header>
-<nav>
-  <a href="#about">About</a>
-  <a href="#book">Book</a>
-  <a href="#social">Social</a>
-  <a href="#testimonials">Testimonials</a>
-</nav>
-<div class="container">
-  <section id="about">
-    <h2>About Spiritualist Don7</h2>
-    <p>Spiritualist Don7 is a divine messenger, energy healer, and guide dedicated to unlocking the sacred teachings of the number 7. With deep insight into chakras, angelic frequencies, and spiritual codes, Don7 leads souls back to their divine essence through books, affirmations, and spiritual teachings.</p>
-  </section>
-  <section id="book">
-    <h2>Latest Book: 7 Portals of the Soul</h2>
-    <p><strong>Subtitle:</strong> A Journey Through the Chakras and Spiritual Awakening</p>
-    <p>Explore the sacred power of the 7 chakras and how they govern your spiritual, emotional, and physical well-being. This book offers deep healing, affirmations, chakra wisdom, and guidance to align your body, mind, and soul.</p>
-    <p><a href="#">📥 Download the Full Book</a></p>
-  </section>
-  <section id="social">
-    <h2>Connect with Me</h2>
-    <div class="social-links">
-      <p>📧 Email: <a href="mailto:spiritualistdon7@gmail.com">spiritualistdon7@gmail.com</a></p>
-      <p>📧 Hotmail: <a href="mailto:donspiritualist7@hotmail.com">donspiritualist7@hotmail.com</a></p>
-      <p>📞 Holiness Line: +1 (912) 798-1870</p>
-      <p>🐦 Twitter: <a href="https://x.com/DonSpiritualist" target="_blank">@DonSpiritualist</a></p>
-      <p>📘 Facebook: <a href="https://facebook.com/spiritualistdon7" target="_blank">@spiritualistdon7</a></p>
-      <p>🎵 TikTok: <a href="https://tiktok.com/@spiritualist_don7" target="_blank">@spiritualist_don7</a></p>
-      <p>▶️ YouTube: <a href="https://youtube.com/@SpiritualistDON7" target="_blank">@SpiritualistDON7</a></p>
+  <header>
+    <h1>SpiritualistDon7 🔮</h1>
+    <p>Psychic Medium | Healer | Herbalist</p>
+  </header>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#shop">Shop</a>
+    <a href="#book">Book a Reading</a>
+    <a href="#appointment">Appointment</a>
+    <a href="#donation">Donation</a>
+    <a href="#blogs">Blogs</a>
+    <a href="#online">Online Reading</a>
+    <a href="#private">Private Reading</a>
+    <a href="#contact">Contact Me</a>
+  </nav>  <section id="services">
+    <h2>🔮 7 Psychic Medium Services</h2>
+    <div class="services">
+      <div class="service">
+        <h3>1. Clairvoyant Readings</h3>
+        <p>Get insights into love, destiny, finances and growth through clear psychic vision.</p>
+      </div>
+      <div class="service">
+        <h3>2. Spirit Mediumship</h3>
+        <p>Connect with departed loved ones and ancestors for peace and healing.</p>
+      </div>
+      <div class="service">
+        <h3>3. Dream Interpretation</h3>
+        <p>Uncover spiritual meanings behind your dreams and visions.</p>
+      </div>
+      <div class="service">
+        <h3>4. Past Life Regression</h3>
+        <p>Explore your past lives and how they influence your current path.</p>
+      </div>
+      <div class="service">
+        <h3>5. Aura & Energy Cleansing</h3>
+        <p>Remove negative energy, curses, or spiritual blocks with guided rituals.</p>
+      </div>
+      <div class="service">
+        <h3>6. Spiritual Protection & Binding</h3>
+        <p>Protect yourself with customized spells, charms and divine rituals.</p>
+      </div>
+      <div class="service">
+        <h3>7. Herbal & Elemental Healing</h3>
+        <p>Natural remedies and herbal cures tailored for your spiritual wellness.</p>
+      </div>
     </div>
-  </section>
-  <section id="testimonials" class="testimonials">
-    <h2>What People Are Saying</h2>
-    <div class="testimonial"><strong>1.</strong> “This book helped me unlock emotional blockages I’ve carried for years. The chakra insights are life-changing.” – Maria F.</div>
-    <div class="testimonial"><strong>2.</strong> “Don7’s guidance brought me back to spiritual balance. I now understand the power of energy and self-love.” – Jamal T.</div>
-    <div class="testimonial"><strong>3.</strong> “The affirmations opened my heart in a way therapy never could. This is sacred work.” – Amina K.</div>
-    <div class="testimonial"><strong>4.</strong> “Reading '7 Portals of the Soul' was like taking a spiritual bath. So much healing in each page.” – Elijah B.</div>
-    <div class="testimonial"><strong>5.</strong> “I finally understand how to work with my chakras thanks to this book. It’s divine.” – Crystal J.</div>
-    <div class="testimonial"><strong>6.</strong> “I started seeing 7:07 everywhere after connecting with Don7’s work. Something activated in me.” – Jonathan R.</div>
-    <div class="testimonial"><strong>7.</strong> “A true masterpiece. Every sentence in this book carries sacred energy.” – Lila S.</div>
-    <div class="testimonial"><strong>8.</strong> “Spiritualist Don7’s teachings are a gift from the universe. I’m forever transformed.” – Raj P.</div>
-    <div class="testimonial"><strong>9.</strong> “From anxiety to alignment—that’s what this journey gave me. Thank you, Don7.” – Sophie L.</div>
-    <div class="testimonial"><strong>10.</strong> “I’ve read many chakra books, but this one spoke directly to my soul.” – Jamir E.</div>
-  </section>
-</div>
-<footer>
-  <p>© 2025 Spiritualist Don7. All Rights Reserved.</p>
-</footer>
+  </section>  <section id="book">
+    <h2>📅 Book a Reading</h2>
+    <div class="form-box">
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSffWx4xNqz5oCmzrK8W_6Ieb0YQdpvIlXlztrEqmpydY3Y5TA/viewform?embedded=true" loading="lazy">Loading…</iframe>
+    </div>
+  </section>  <section id="donation">
+    <h2>💸 Support the Divine Work</h2>
+    <div class="donation-box">
+      <p>If you wish to support the spiritual mission, you may send crypto donations below:</p>
+      <div class="btc-address">BTC: bc1pv7cn9kktzaktmdq88vz3ywla5yvyyd74shfvrsz3g77hg0r7pz6qsh7rtc</div>
+      <div class="qr-code">
+        <img src="https://chart.googleapis.com/chart?chs=200x200&cht=qr&chl=bc1pv7cn9kktzaktmdq88vz3ywla5yvyyd74shfvrsz3g77hg0r7pz6qsh7rtc&choe=UTF-8" alt="BTC QR">
+      </div>
+      <div class="eth-address">ETH: 0x6349175cD375cDb1e5244125749AC38386D5feD9</div>
+      <div class="qr-code">
+        <img src="https://chart.googleapis.com/chart?chs=200x200&cht=qr&chl=0x6349175cD375cDb1e5244125749AC38386D5feD9&choe=UTF-8" alt="ETH QR">
+      </div>
+      <div class="sol-address">SOL: 3kkLnV3DfprUSpXAzdHFPQSheBEvSjth8EcykA5JYtQQ</div>
+      <div class="qr-code">
+        <img src="https://chart.googleapis.com/chart?chs=200x200&cht=qr&chl=3kkLnV3DfprUSpXAzdHFPQSheBEvSjth8EcykA5JYtQQ&choe=UTF-8" alt="SOL QR">
+      </div>
+    </div>
+  </section>  <section id="contact">
+    <h2>📞 Contact Me</h2>
+    <div class="contact">
+      <a href="mailto:spiritualistdon7@gmail.com">📧 Email: spiritualistdon7@gmail.com</a>
+      <a href="mailto:donspiritualist7@hotmail.com">📨 Hotmail: donspiritualist7@hotmail.com</a>
+      <a href="https://donspiritualist7.github.io/Spiritualistdon7.site/">🔗 Website</a>
+      <a href="https://x.com/DonSpiritualist">🐦 Twitter</a>
+      <a href="https://www.facebook.com/Spiritualistdon">📘 Facebook</a>
+      <a href="https://youtube.com/@spiritualistdon7">📸 YouTube</a>
+    </div>
+  </section>  <footer>
+    &copy; 2025 SpiritualistDon7. All rights reserved.
+  </footer>
 </body>
 </html>
