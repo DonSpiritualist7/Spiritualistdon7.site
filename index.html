@@ -1,4 +1,5 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -48,12 +49,12 @@
       color: #0f0;
       border-bottom: 2px solid #fff;
     }
-    .services {
+    .services, .testimonial-cards {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 1.5rem;
     }
-    .service {
+    .service, .testimonial {
       background: #112233;
       padding: 1.5rem;
       border-radius: 10px;
@@ -143,6 +144,7 @@
     <h1>SpiritualistDon7 🔮</h1>
     <p>Psychic Medium | Healer | Herbalist</p>
   </header>
+
   <nav>
     <a href="#services">Services</a>
     <a href="#shop">Shop</a>
@@ -152,22 +154,91 @@
     <a href="#blogs">Blogs</a>
     <a href="#online">Online Reading</a>
     <a href="#private">Private Reading</a>
-    <a href="#contact">Contact Me</a>
     <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact Me</a>
   </nav>
-  <!-- Previous Sections... (services, shop, etc.) -->  <section id="testimonials">
-    <h2>TESTIMONIALS</h2>
-    <p><strong>About the Spiritualist:</strong> I am SpiritualistDon7 — a full-time Spiritualist, Herbalist, Love Binder, and Psychic Medium based in the United States 🇺🇸. With divine wisdom and sacred ancestral energy, I have rendered works in France 🇫🇷, Philippines 🇵🇭, South Africa 🇿🇦, Benin 🇧🇯, Haiti 🇭🇹, Dominican Republic 🇩🇴, Cuba 🇨🇺, Nigeria 🇳🇬 and helped people find peace and miracles.</p>
-    <div class="testimony">
-      <h3>Angela – Love Restored 🇫🇷</h3>
-      <p>Angela found healing and reconciliation with her lost fiancé through ancestral love binding. 11 days later, they were reunited.</p>
+
+  <section id="services">
+    <h2>🔮 7 Psychic Medium Services</h2>
+    <div class="services">
+      <div class="service"><h3>1. Clairvoyant Readings</h3><p>Insights into love, destiny, finances and growth through clear psychic vision.</p></div>
+      <div class="service"><h3>2. Spirit Mediumship</h3><p>Connect with departed loved ones and ancestors for peace and healing.</p></div>
+      <div class="service"><h3>3. Dream Interpretation</h3><p>Understand the meanings behind your dreams and symbols.</p></div>
+      <div class="service"><h3>4. Past Life Regression</h3><p>Explore past lives to understand present life situations.</p></div>
+      <div class="service"><h3>5. Aura & Energy Cleansing</h3><p>Remove negative energies and reset your vibration.</p></div>
+      <div class="service"><h3>6. Spiritual Protection & Binding</h3><p>Wards, protection rituals and spiritual coverings for safety.</p></div>
+      <div class="service"><h3>7. Herbal & Elemental Healing</h3><p>Receive ancient herbs and elemental rituals for natural healing.</p></div>
     </div>
-    <div class="testimony">
-      <h3>David – Curse Broken 🇵🇭</h3>
-      <p>David’s financial and health problems ended after an aura cleansing ritual broke ancestral bondages.</p>
+  </section>
+
+  <section id="shop">
+    <h2>🛍️ Spiritual Shop</h2>
+    <div class="shop-box">
+      <div class="shop-item"><h4>Protection Candle</h4><p>Handcrafted with herbs and oils for spiritual protection.</p></div>
+      <div class="shop-item"><h4>Aura Cleanser Oil</h4><p>Apply to your skin or during meditation to purify your aura.</p></div>
+      <div class="shop-item"><h4>Love Attraction Herbs</h4><p>Draw true love and romance using this sacred blend.</p></div>
     </div>
-    <!-- Add more client testimonies here -->
-  </section>  <footer>
+  </section>
+
+  <section id="book">
+    <h2>📅 Book a Reading</h2>
+    <div class="form-box">
+      <form action="mailto:spiritualistdon7@gmail.com" method="POST" enctype="text/plain">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">What kind of reading do you want?</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        <button type="submit">Send Booking Request</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="blogs">
+    <h2>📝 Spiritual Blog</h2>
+    <div class="blog-box">
+      <p>Coming soon... weekly wisdom and insights on energy, love, and the spiritual world.</p>
+    </div>
+  </section>
+
+  <section id="donation">
+    <h2>💰 Support the Divine Work</h2>
+    <div class="donation-box">
+      <p>If you feel led to support the mission, here are ways to donate:</p>
+      <div class="btc-address">BTC: bc1pv7cn9kktzaktmdq88vz3ywla5yvyyd74shfvrsz3g77hg0r7pz6qsh7rtc</div>
+      <div class="qr-code"><img src="https://chart.googleapis.com/chart?chs=200x200&cht=qr&chl=bc1pv7cn9kktzaktmdq88vz3ywla5yvyyd74shfvrsz3g77hg0r7pz6qsh7rtc" alt="BTC QR"></div>
+      <div class="eth-address">ETH: 0x6349175cD375cDb1e5244125749AC38386D5feD9</div>
+      <div class="qr-code"><img src="https://chart.googleapis.com/chart?chs=200x200&cht=qr&chl=0x6349175cD375cDb1e5244125749AC38386D5feD9" alt="ETH QR"></div>
+      <div class="sol-address">SOL: 3kkLnV3DfprUSpXAzdHFPQSheBEvSjth8EcykA5JYtQQ</div>
+      <div class="qr-code"><img src="https://chart.googleapis.com/chart?chs=200x200&cht=qr&chl=3kkLnV3DfprUSpXAzdHFPQSheBEvSjth8EcykA5JYtQQ" alt="SOL QR"></div>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <h2>🌟 Testimonials</h2>
+    <div class="testimonial-cards">
+      <div class="testimonial"><p>“His reading changed my life! I felt clarity and peace I haven’t had in years.” – Angela, NY</p></div>
+      <div class="testimonial"><p>“I was skeptical, but everything he said came true. Truly gifted.” – Marcus, TX</p></div>
+      <div class="testimonial"><p>“The herbs and prayers brought healing to my body and mind.” – Amina, UK</p></div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>📞 Contact Me</h2>
+    <div class="contact">
+      <p><strong>CONTACT THE SPIRITUALIST ON EMAIL OR MOBILE</strong></p>
+      <a href="mailto:spiritualistdon7@gmail.com">📧 spiritualistdon7@gmail.com</a>
+      <a href="mailto:donspiritualist7@hotmail.com">📨 donspiritualist7@hotmail.com</a>
+      <p>📞 +1 (912) 798-1870</p>
+      <a href="https://donspiritualist7.github.io/Spiritualistdon7.site/">🔗 Website</a>
+      <a href="https://x.com/DonSpiritualist">🐦 Twitter</a>
+      <a href="https://www.facebook.com/Spiritualistdon">📘 Facebook</a>
+      <a href="https://youtube.com/@spiritualistdon7">📸 YouTube</a>
+    </div>
+  </section>
+
+  <footer>
     &copy; 2025 SpiritualistDon7. All rights reserved.
   </footer>
 </body>
