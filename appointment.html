@@ -1,0 +1,59 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Appointment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>📆 Schedule an Appointment</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="book.html">Book a Reading</a>
+      <a href="appointment.html">Appointment</a>
+      <a href="donation.html">Donation</a>
+      <a href="blogs.html">Blogs</a>
+      <a href="online-reading.html">Online Reading</a>
+      <a href="private-reading.html">Private Reading</a>
+      <a href="testimonials.html">Testimonials</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>  <main>
+    <section class="form-box">
+      <h2>📆 Book a Personal Appointment</h2>
+      <p>You can book a spiritual consultation, healing session, or ritual appointment directly. All sessions are by scheduled time only.</p><ul>
+    <li>🔹 Spiritual Guidance (20 min) – $30</li>
+    <li>🔹 Healing Session (45 min) – $55</li>
+    <li>🔹 Full Ritual Appointment – $100+</li>
+  </ul>
+
+  <form action="mailto:spiritualistdon7@gmail.com" method="POST" enctype="text/plain">
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="session">Choose Appointment Type</label>
+    <select id="session" name="session">
+      <option value="Spiritual Guidance">Spiritual Guidance</option>
+      <option value="Healing Session">Healing Session</option>
+      <option value="Ritual Appointment">Ritual Appointment</option>
+    </select>
+
+    <label for="date">Preferred Date & Time</label>
+    <input type="text" id="date" name="preferred_date" placeholder="e.g. July 15th, 10:00AM GMT" required>
+
+    <label for="note">Additional Note</label>
+    <textarea id="note" name="note" rows="5" placeholder="Share anything you'd like me to know ahead of the session..."></textarea>
+
+    <button type="submit">📆 Schedule Now</button>
+  </form>
+</section>
+
+  </main>  <footer>
+    <p>&copy; 2025 SpiritualistDon7. All rights reserved.</p>
+  </footer>
+</body>
+</html>
